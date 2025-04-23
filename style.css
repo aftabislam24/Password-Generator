@@ -66,3 +66,40 @@ button{
     color: #fff;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 800px) {
+    .container{
+        margin: 0 0;
+    }
+}
+@media screen and (max-width:600px) {
+    .container{
+        padding: 25px;
+
+    }
+    .display{
+        width: 100%;
+    }
+}
+@media screen and (max-width:510px) {
+    .container h1{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .container h1 span{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:325px) {
+    .container{
+        padding: 0;
+    }
+    .container h1{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .container h1 span{
+        font-size: 30px;
+    }
+}
